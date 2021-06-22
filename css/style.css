@@ -1,0 +1,243 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.ul {
+    list-style: none;
+}
+
+
+/* Логотип */
+
+.logo {
+ text-decoration: none;   
+    
+}
+
+.logo1 {
+font-family: Raleway;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+color: #2196F3;
+}
+
+.logo2 {
+font-family: Raleway;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+color: #000000;
+}
+
+.logo3 {
+font-family: Raleway;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+color: #ffffff;
+}
+
+/* Навигация_по_сайту */
+
+.navigation a {
+    display: inline-block;
+    text-decoration: none;
+}
+    .navigation li {
+        display: inline-block;
+        }
+
+        .navigation li > a {
+            text-decoration: none;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.02em;
+            color: #212121;
+        }
+
+        .navigation li > a:hover,
+        .navigation li > a:focus {
+            color: #2196F3
+        }
+
+        .navigation li > a {
+            text-decoration: none;
+            cursor: pointer;
+            font-size: 12px;
+            color: #757575
+        }
+
+
+
+    /* Контакты */
+    .contacts li > a {
+            text-decoration: none;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.02em;
+            color: #757575
+            }
+
+    .contacts  li {
+        display: inline-block;
+        
+        }
+
+    .contacts  li > a:hover,
+    .contacts  li > a:focus
+    {
+        color: #2196F3
+        }
+
+/* Заказ_услуг */
+
+.service {
+    text-align: center;
+    background-color: #2F303A;
+}
+
+.service > ul > li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.service-title {
+    color: #ffffff;
+}
+
+.button1 {
+    cursor: pointer;
+    background-color: #2196f3 ;
+    color: #ffffff;
+    width: 200px;
+    height: 50px;
+}
+
+/* Описание_чем_занимается_фирма */
+
+
+.quality > li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.quality-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.quality-text {
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* Фото_Чем_Занимается_фирма */
+
+.occupation {
+    text-align: center;
+}
+
+.our-team-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.occupation-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+
+}
+
+.occupation > ul > li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Наша_Команда */
+
+.our-team {
+   text-align: center; 
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
+
+.our-team > ul > li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+/* Подпись */
+
+
+.address {
+font-size: 14px;
+line-height: 171%;
+letter-spacing: 0.03em;
+color: #ffffff;
+}
+
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.address > ul > li {
+    list-style-type: none;
+}
+
+.address > ul > li > a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    }
