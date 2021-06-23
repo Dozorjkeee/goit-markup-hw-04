@@ -1,18 +1,17 @@
 body {
     font-family: 'Roboto', sans-serif;
+    letter-spacing: 00.03em;
 }
 
-.ul {
-    list-style: none;
+li {
+    list-style-type: none;
 }
 
+a {
+text-decoration: none;}
 
 /* Логотип */
 
-.logo {
- text-decoration: none;   
-    
-}
 
 .logo1 {
 font-family: Raleway;
@@ -40,22 +39,14 @@ color: #ffffff;
 
 /* Навигация_по_сайту */
 
-.navigation a {
-    display: inline-block;
+.link {
     text-decoration: none;
-}
-    .navigation li {
-        display: inline-block;
-        }
-
-        .navigation li > a {
-            text-decoration: none;
-            cursor: pointer;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 16px;
-            letter-spacing: 0.02em;
-            color: #212121;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
         }
 
         .navigation li > a:hover,
@@ -63,13 +54,17 @@ color: #ffffff;
             color: #2196F3
         }
 
-        .navigation li > a {
-            text-decoration: none;
-            cursor: pointer;
-            font-size: 12px;
-            color: #757575
+.valid-link {
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
         }
 
+    
 
 
     /* Контакты */
@@ -83,16 +78,31 @@ color: #ffffff;
             color: #757575
             }
 
-    .contacts  li {
-        display: inline-block;
-        
-        }
-
     .contacts  li > a:hover,
-    .contacts  li > a:focus
-    {
+    .contacts  li > a:focus,
+    .contacts  li > a:visited {
         color: #2196F3
         }
+
+.button {
+    cursor: pointer;
+    background-color: #e8e9eb ;
+    color: #181212;   
+}
+
+.button:hover {
+    color: cornsilk;
+    background-color: #2196F3
+}
+
+.button2 {
+    cursor: pointer;
+    background-color: #2196f3 ;
+    color: #ffffff;
+}
+
+
+
 
 /* Заказ_услуг */
 
@@ -101,13 +111,14 @@ color: #ffffff;
     background-color: #2F303A;
 }
 
-.service > ul > li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-}
 
 .service-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 136%;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: #ffffff;
 }
 
@@ -122,14 +133,7 @@ color: #ffffff;
 /* Описание_чем_занимается_фирма */
 
 
-.quality > li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-}
-
 .quality-title {
-    font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
@@ -147,9 +151,6 @@ color: #ffffff;
 
 /* Фото_Чем_Занимается_фирма */
 
-.occupation {
-    text-align: center;
-}
 
 .our-team-title {
     font-weight: bold;
@@ -157,7 +158,6 @@ color: #ffffff;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-
     color: #212121;
 }
 
@@ -167,23 +167,11 @@ color: #ffffff;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-
     color: #212121;
-
-}
-
-.occupation > ul > li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
 }
 
 
 /* Наша_Команда */
-
-.our-team {
-   text-align: center; 
-}
 
 .team-title {
     font-weight: 500;
@@ -203,11 +191,6 @@ color: #ffffff;
     color: #757575;
     }
 
-.our-team > ul > li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-}
 
 /* Подпись */
 
@@ -241,3 +224,5 @@ color: #ffffff;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     }
+
+
