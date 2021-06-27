@@ -86,7 +86,7 @@ color: #ffffff;
 
 .button {
     cursor: pointer;
-    background-color: #e8e9eb ;
+    background-color: #ffffff ;
     color: #181212;   
 }
 
@@ -101,8 +101,26 @@ color: #ffffff;
     color: #ffffff;
 }
 
+/* Проекты_компании */
 
+.project {
+    background-color: #FFFFFF;
+}
 
+.project-text {
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.project-title {
+font-weight: bold;
+font-size: 18px;
+line-height: 200%;
+letter-spacing: 0.06em;
+color: #212121;
+}
 
 /* Заказ_услуг */
 
@@ -207,7 +225,7 @@ color: #ffffff;
     background-color: #2F303A;
 }
 
-.footer a {
+.footer > a {
     display: inline-block;
     text-decoration: none;
 }
@@ -225,4 +243,9 @@ color: #ffffff;
     color: rgba(255, 255, 255, 0.6);
     }
 
-
+.address > p {
+font-size: 14px;
+line-height: 171%;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
