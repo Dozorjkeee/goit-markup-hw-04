@@ -10,8 +10,16 @@ li {
 a {
 text-decoration: none;}
 
-/* Логотип */
 
+
+.hat {
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+/* Логотип */
 
 .logo1 {
 font-family: Raleway;
@@ -38,6 +46,11 @@ color: #ffffff;
 }
 
 /* Навигация_по_сайту */
+
+.navigation {
+    padding: 0px;
+    margin: 0px;
+}
 
 .link {
     text-decoration: none;
@@ -68,15 +81,22 @@ color: #ffffff;
 
 
     /* Контакты */
+
+    .contacts {
+        padding: 0px;
+        margin: 0px;
+    }
+
     .contacts li > a {
-            text-decoration: none;
-            cursor: pointer;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 16px;
-            letter-spacing: 0.02em;
-            color: #757575
-            }
+        
+        text-decoration: none;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #757575
+        }
 
     .contacts  li > a:hover,
     .contacts  li > a:focus,
@@ -104,10 +124,22 @@ color: #ffffff;
 /* Проекты_компании */
 
 .project {
+    margin-top: 94px;
+    margin-bottom: 94px;
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
     background-color: #FFFFFF;
 }
 
+.project > ul {
+    margin: 0px;
+    padding: 0px;
+}
+
 .project-text {
+    margin: 0px;
+    padding: 0px;
     font-size: 16px;
     line-height: 187%;
     letter-spacing: 0.03em;
@@ -115,6 +147,8 @@ color: #ffffff;
 }
 
 .project-title {
+margin: 0px;
+padding: 0px;
 font-weight: bold;
 font-size: 18px;
 line-height: 200%;
@@ -126,11 +160,15 @@ color: #212121;
 
 .service {
     text-align: center;
+    margin-bottom: 94px;
     background-color: #2F303A;
 }
 
 
 .service-title {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 136%;
@@ -141,6 +179,7 @@ color: #212121;
 }
 
 .button1 {
+    border-radius: 4px;
     cursor: pointer;
     background-color: #2196f3 ;
     color: #ffffff;
@@ -150,8 +189,17 @@ color: #212121;
 
 /* Описание_чем_занимается_фирма */
 
+.quality {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 94px;
+}
 
 .quality-title {
+    
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
@@ -161,6 +209,8 @@ color: #212121;
 }
 
 .quality-text {
+    margin: 0px;
+    padding: 0px;
     font-size: 14px;
     line-height: 171%;
     letter-spacing: 0.03em;
@@ -169,8 +219,16 @@ color: #212121;
 
 /* Фото_Чем_Занимается_фирма */
 
+.occupation > ul {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 94px;
+}
 
 .our-team-title {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 50px;
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;
@@ -179,7 +237,12 @@ color: #212121;
     color: #212121;
 }
 
+
 .occupation-title {
+    
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 50px;
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;
@@ -187,11 +250,24 @@ color: #212121;
     letter-spacing: 0.03em;
     color: #212121;
 }
+
+
 
 
 /* Наша_Команда */
 
+.container {
+    padding: 94px;
+}
+
+.our-team {
+    margin: 0px;
+    padding: 0px;
+}
+
 .team-title {
+    margin: 0px;
+    padding: 0px;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -202,6 +278,8 @@ color: #212121;
 }
 
 .team-text {
+    margin: 0px;
+    padding: 0px;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -214,14 +292,21 @@ color: #212121;
 
 
 .address {
-font-size: 14px;
-line-height: 171%;
-letter-spacing: 0.03em;
-color: #ffffff;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    }
+
+.address > p {
+    margin: 0px;
+    padding: 0px;
 }
 
-
 .footer {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
     background-color: #2F303A;
 }
 
@@ -230,8 +315,10 @@ color: #ffffff;
     text-decoration: none;
 }
 
-.address > ul > li {
+.address > ul {
     list-style-type: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .address > ul > li > a {
