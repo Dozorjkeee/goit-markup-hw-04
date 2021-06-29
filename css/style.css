@@ -1,338 +1,327 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 00.03em;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 00.03em;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a {
-text-decoration: none;}
-
-
-
-.hat {
-    width: 1200px;
-    padding-right: 15px;
-    padding-left: 15px;
+  text-decoration: none;
 }
 
+.hat {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
 
 /* Логотип */
 
 .logo1 {
-font-family: Raleway;
-font-weight: bold;
-font-size: 26px;
-line-height: 31px;
-color: #2196F3;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #2196f3;
 }
 
 .logo2 {
-font-family: Raleway;
-font-weight: bold;
-font-size: 26px;
-line-height: 31px;
-color: #000000;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #000000;
 }
 
 .logo3 {
-font-family: Raleway;
-font-weight: bold;
-font-size: 26px;
-line-height: 31px;
-color: #ffffff;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #ffffff;
 }
 
 /* Навигация_по_сайту */
 
 .navigation {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .link {
-    text-decoration: none;
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #212121;
-        }
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
 
-        .navigation li > a:hover,
-        .navigation li > a:focus {
-            color: #2196F3
-        }
+.navigation li > a:hover,
+.navigation li > a:focus {
+  color: #2196f3;
+}
 
 .valid-link {
-    text-decoration: none;
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #2196F3;
-        }
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
 
-    
+/* Контакты */
 
+.contacts {
+  padding: 0px;
+  margin: 0px;
+}
 
-    /* Контакты */
+.contacts li > a {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
 
-    .contacts {
-        padding: 0px;
-        margin: 0px;
-    }
-
-    .contacts li > a {
-        
-        text-decoration: none;
-        cursor: pointer;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-        color: #757575
-        }
-
-    .contacts  li > a:hover,
-    .contacts  li > a:focus,
-    .contacts  li > a:visited {
-        color: #2196F3
-        }
+.contacts li > a:hover,
+.contacts li > a:focus,
+.contacts li > a:visited {
+  color: #2196f3;
+}
 
 .button {
-    cursor: pointer;
-    background-color: #ffffff ;
-    color: #181212;   
+  cursor: pointer;
+  background-color: #f5f4fa;
+  color: #181212;
 }
 
 .button:hover {
-    color: cornsilk;
-    background-color: #2196F3
+  color: cornsilk;
+  background-color: #2196f3;
 }
 
 .button2 {
-    cursor: pointer;
-    background-color: #2196f3 ;
-    color: #ffffff;
+  cursor: pointer;
+  background-color: #2196f3;
+  color: #ffffff;
 }
 
 /* Проекты_компании */
 
 .project {
-    margin-top: 94px;
-    margin-bottom: 94px;
-    width: 1170px;
-    padding-left: 15px;
-    padding-right: 15px;
-    background-color: #FFFFFF;
+  margin-top: 94px;
+  margin-bottom: 94px;
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #ffffff;
 }
 
 .project > ul {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .project-text {
-    margin: 0px;
-    padding: 0px;
-    font-size: 16px;
-    line-height: 187%;
-    letter-spacing: 0.03em;
-    color: #757575;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 .project-title {
-margin: 0px;
-padding: 0px;
-font-weight: bold;
-font-size: 18px;
-line-height: 200%;
-letter-spacing: 0.06em;
-color: #212121;
+  margin: 0px;
+  padding: 0px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: 0.06em;
+  color: #212121;
 }
 
 /* Заказ_услуг */
 
 .service {
-    text-align: center;
-    margin-bottom: 94px;
-    background-color: #2F303A;
+  text-align: center;
+  margin-bottom: 94px;
+  background-color: #2f303a;
 }
 
-
 .service-title {
-    margin: 0px;
-    padding: 0px;
-    margin-bottom: 30px;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 136%;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .button1 {
-    border-radius: 4px;
-    cursor: pointer;
-    background-color: #2196f3 ;
-    color: #ffffff;
-    width: 200px;
-    height: 50px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #2196f3;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
 }
 
 /* Описание_чем_занимается_фирма */
 
 .quality {
-    margin: 0px;
-    padding: 0px;
-    margin-bottom: 94px;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 94px;
 }
 
 .quality-title {
-    
-    margin: 0px;
-    padding: 0px;
-    margin-bottom: 10px;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
 }
 
 .quality-text {
-    margin: 0px;
-    padding: 0px;
-    font-size: 14px;
-    line-height: 171%;
-    letter-spacing: 0.03em;
-    color: #757575;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 /* Фото_Чем_Занимается_фирма */
 
 .occupation > ul {
-    margin: 0px;
-    padding: 0px;
-    margin-bottom: 94px;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 94px;
 }
 
 .our-team-title {
-    margin: 0px;
-    padding: 0px;
-    margin-bottom: 50px;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
-
 
 .occupation-title {
-    
-    margin: 0px;
-    padding: 0px;
-    margin-bottom: 50px;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
-
-
-
 
 /* Наша_Команда */
 
 .container {
-    padding: 94px;
+  padding: 94px;
 }
 
 .our-team {
-    margin: 0px;
-    padding: 0px;
+  background-color: #f5f4fa;
+}
+.our-team-list {
+  margin: 0px;
+  padding: 0px;
 }
 
 .team-title {
-    margin: 0px;
-    padding: 0px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-
+  margin: 0px;
+  padding: 0px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .team-text {
-    margin: 0px;
-    padding: 0px;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #757575;
-    }
-
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 
 /* Подпись */
 
-
 .address {
-    font-size: 14px;
-    line-height: 171%;
-    letter-spacing: 0.03em;
-    color: #ffffff;
-    }
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
 
 .address > p {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-style: normal;
 }
 
 .footer {
-    width: 1170px;
-    padding-right: 15px;
-    padding-left: 15px;
-    background-color: #2F303A;
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #2f303a;
 }
 
 .footer > a {
-    display: inline-block;
-    text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
 }
 
 .address > ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 .address > ul > li > a {
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 14px;
-    line-height: 171%;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    }
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
 
 .address > p {
-font-size: 14px;
-line-height: 171%;
-letter-spacing: 0.03em;
-color: #FFFFFF;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
