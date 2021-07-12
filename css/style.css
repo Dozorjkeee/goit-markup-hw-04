@@ -135,6 +135,17 @@ img {
   color: #757575;
 }
 
+.mail::before {
+  display: flex;
+  content: "";
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  background-color: tomato;
+  background-image: url(../img/mail.jpg);
+  background-size: contain;
+}
+
 .contacts li > a:hover,
 .contacts li > a:focus,
 .contacts li > a:visited {
@@ -253,8 +264,20 @@ img {
 
 .service {
   height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   background-color: #2f303a;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../img/fond.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .serv {
