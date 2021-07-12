@@ -12,12 +12,13 @@ a {
 }
 
 header {
-  border-bottom: 1px;
-  color: #ececec;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #ececec;
 }
 
 img {
-  dispaly: block;
+  display: block;
 }
 
 .container {
@@ -222,7 +223,9 @@ img {
 
 .info-foto {
   padding: 20px 24px;
-  border: 0px 1px 1px 1px solid #eeeeee;
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: #eeeeee;
   box-sizing: border-box;
 }
 
@@ -369,7 +372,7 @@ img {
 .our-team-title {
   margin: 0px;
   padding: 0px;
-  padding-top: 94px;
+
   margin-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
@@ -382,6 +385,7 @@ img {
 .our-team {
   background-color: #f5f4fa;
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .our-team-list {
   display: flex;
@@ -453,6 +457,10 @@ img {
 
 .contacts-footer {
   margin-top: 9px;
+}
+
+.contacts-footer .item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .contacts-footer > li > a {
