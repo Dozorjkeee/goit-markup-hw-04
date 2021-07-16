@@ -123,7 +123,7 @@ img {
 
 .contact-icon {
   margin-right: 10px;
-  fill: tomato;
+  fill: currentColor;
 }
 
 .contacts .item + .item {
@@ -256,6 +256,17 @@ img {
   color: #212121;
 }
 
+.project-link {
+  color: ##757575;
+  text-decoration: none;
+  display: block;
+}
+.project-link:hover,
+.project-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 /* Заказ_услуг */
 
 .service {
@@ -327,6 +338,15 @@ img {
 
 .quality .item:not(:last-child) {
   margin-right: 30px;
+}
+
+.icon-quality {
+  height: 120px;
+  background-color: var(--secondary-fon-color);
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .quality-title {
@@ -440,6 +460,77 @@ img {
   color: #757575;
 }
 
+.sn-links {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  justify-content: space-between;
+}
+.sn-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  color: #afb1b8;
+}
+.sn-link:hover,
+.sn-link:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.sn-icon {
+  fill: currentColor;
+}
+
+/* наши клиены */
+
+.section-clients {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+.section-clients-title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.clients {
+  display: flex;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  justify-content: space-between;
+}
+.clients-links {
+  display: flex;
+  width: 170px;
+  height: 92px;
+}
+.clients-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  color: #afb1b8;
+}
+.clients-link:hover,
+.clients-link:focus {
+  color: #2196f3;
+  border-color: #2196f3;
+}
+.clients-icon {
+  fill: currentColor;
+}
+
 /* Подпись */
 
 .address {
@@ -461,6 +552,8 @@ img {
 .ftr {
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
+  align-items: baseline;
 }
 
 .logo-footer {
@@ -490,4 +583,42 @@ img {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
+}
+
+.sn-footer {
+  margin-left: 70px;
+}
+
+.sn-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.snft-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 206px;
+}
+.snft-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-color: rgb(255, 255, 255, 0.1);
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.snft-link:hover,
+.snft-link:focus {
+  background-color: #2196f3;
+}
+.snft-icon {
+  fill: #ffffff;
 }
