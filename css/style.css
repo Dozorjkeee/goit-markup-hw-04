@@ -121,11 +121,16 @@ img {
   margin: 0px;
 }
 
+.contact-icon {
+  margin-right: 10px;
+  fill: tomato;
+}
+
 .contacts .item + .item {
   margin-left: 30px;
 }
 
-.contacts li > a {
+.link-cont {
   text-decoration: none;
   cursor: pointer;
   font-weight: 500;
@@ -133,17 +138,8 @@ img {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
-}
-
-.mail::before {
   display: flex;
-  content: "";
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  background-color: tomato;
-  background-image: url(../img/mail.jpg);
-  background-size: contain;
+  align-items: center;
 }
 
 .contacts li > a:hover,
